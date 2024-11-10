@@ -62,10 +62,10 @@ useGSAP(() => {
         </div>
         <div className="w-[450px] h-[850px] bg-[#DFDEDA] flex flex-col justify-between">
           <div className="p-10 text-black flex flex-col justify-between">
-            <h1 className={`${NewYork.variable} font-newYork text-[45px] py-4`}>
+            <h1 className={`${NewYork.variable} font-newYork text-[50px] `}>
               {work.title}
             </h1>
-            <p>{work.description}</p>
+            <p className="whitespace-pre-line text-[14px]">{work.description}</p>
 
             <p
               className="font-black text-sm py-5"

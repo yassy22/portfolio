@@ -11,7 +11,7 @@ export default function ThankYou() {
         Thanks for scrolling
       </h1>
 
-      <p className="text-[10px]">made with stress</p>
+      {/* <p className="text-[10px]">made with stress</p> */}
     </div>
   );
 }

@@ -34,7 +34,7 @@ function Nav() {
         {/* Desktop Navigation */}
         <ul className="hidden sm:flex gap-5 sm:gap-10 uppercase text-sm sm:text-base">
           <li>
-            <Link href="/works" className="hover:text-blue-500">
+            <Link href="/all" className="hover:text-blue-500">
               works
             </Link>
           </li>
