@@ -6,7 +6,6 @@ import clubsofa_i5 from "../../public/assets/images/clubSofa/clubsofa_i5.png";
 import clubsofa_iphone from "../../public/assets/images/clubSofa/clubsofa_iphone.png";
 
 import clubsofa_gif_1 from "../../public/assets/images/clubSofa/gifs/workiV1.gif";
-import clubsofa_gif_4 from "../../public/assets/images/clubSofa/gifs/workiV4.gif";
 
 // import inTheBeginning_gif_1 from "../../public/assets/images/thebeginnig/gif/begining_gif1.gif";
 // import inTheBeginning_gif_2 from "../../public/assets/images/thebeginnig/begining_i2.png";
@@ -47,7 +46,7 @@ const works: IWork[] = [
     slug: "sofa-club",
     title: "Sofa Club",
     description: "Gold + Gold",
-    image: [clubsofa_gif_1, clubsofa_i1, clubsofa_gif_4, clubsofa_i4], // Drie afbeeldingen
+    image: [clubsofa_gif_1, clubsofa_i1,  clubsofa_i4], // Drie afbeeldingen
     imageHeader: [clubsofa_iphone, hearder, clubsofa_i5],
     roles: ["frontend", "backend", "creative direction", "web design"],
   },
